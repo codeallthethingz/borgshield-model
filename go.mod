@@ -1,4 +1,4 @@
-module github.com/codeallthethingz/borgshield
+module github.com/codeallthethingz/borgshield-model
 
 go 1.13
 
