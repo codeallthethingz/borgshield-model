@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option go_package = "model";
+
+package model;
+
+message VirusFoundRequest {
+	string virusName = 1;
+	string path = 2;
+	string macHash = 3;
+	string hostname = 4;
+}
+
+message VirusFoundReply {
+      
+}
