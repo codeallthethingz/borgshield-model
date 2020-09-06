@@ -5,12 +5,25 @@ option go_package = "model";
 package model;
 
 message VirusFoundRequest {
+	repeated Virus viruses = 1;
+	Machine machine = 2;
+}
+message Machine {
+	string macHash = 1;
+	string hostname = 2; 
+
+}
+message Virus {
 	string virusName = 1;
 	string path = 2;
-	string macHash = 3;
-	string hostname = 4;
+}
+message VirusFoundReply {   
 }
 
-message VirusFoundReply {
-      
+message MachineListResponse {
+	repeated  MachineViruses machines = 1;
+}
+message MachineViruses {
+	repeated Virus viruses = 1;
+	Machine machine = 2;
 }
