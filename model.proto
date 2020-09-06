@@ -30,4 +30,5 @@ message MachineViruses {
 	int64 lastUpdated = 3;
 	string macHash = 4;
 	string domain = 5;
+	string email = 6;
 }
