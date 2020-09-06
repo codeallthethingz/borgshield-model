@@ -7,6 +7,7 @@ package model;
 message VirusFoundRequest {
 	repeated Virus viruses = 1;
 	Machine machine = 2;
+	string macHash = 3;
 }
 message Machine {
 	string macHash = 1;
