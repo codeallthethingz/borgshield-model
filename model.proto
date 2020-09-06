@@ -26,4 +26,5 @@ message MachineListResponse {
 message MachineViruses {
 	repeated Virus viruses = 1;
 	Machine machine = 2;
+	int64 lastUpdated = 3;
 }
