@@ -14,7 +14,7 @@ message Machine {
 
 }
 message Virus {
-	string virusName = 1;
+	string name = 1;
 	string path = 2;
 }
 message VirusFoundReply {   
