@@ -4,7 +4,7 @@ option go_package = "model";
 
 package model;
 
-message VirusFoundRequest {
+message MachineCheckInRequest {
 	repeated Virus viruses = 1;
 	Machine machine = 2;
 	string macHash = 3;
