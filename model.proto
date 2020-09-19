@@ -18,7 +18,7 @@ message Virus {
 	string name = 1;
 	string path = 2;
 }
-message VirusFoundReply {   
+message MachineCheckInReply {   
 }
 
 message MachineListResponse {
